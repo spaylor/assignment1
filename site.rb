@@ -1,9 +1,19 @@
 require 'sinatra'
-set :port, 4000
+require 'rest-client'
+
+ENV ['PORT'] ||= '4000'
+set :port, ENV['PORT']
 set :bind, '0.0.0.0'
+
 get '/' do
-  "I'm Alive!"
+  erb :index
 end
+
+get '/italian' do
+  "Ciao!"
+end
+
+
 
 
 
