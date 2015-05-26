@@ -4,7 +4,7 @@ set :port, 4000
 set :bind, '0.0.0.0'
 
 get '/' do
-  erb :index
+  "I'm alive!"
 end
 
 get '/italian' do
