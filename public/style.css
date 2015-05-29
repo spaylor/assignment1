@@ -4,3 +4,22 @@
      marging: 10px;
      text-align: center;
  }
+html {
+  background: url('https://www.flickr.com/photos/rez-/17993072070/in/explore-2015-05-28/') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover
+    background-size: cover;
+}
+
+ .profile h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+ .profile img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+ }
+
