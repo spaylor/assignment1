@@ -8,6 +8,11 @@ get '/' do
   erb :index
 end
 
+get '/read_more' do
+  erb :read_more
+end
+
+
 get '/italian' do
   "Ciao!"
 end
@@ -16,9 +21,7 @@ get '/spanish' do
   "Hola Chola!"
 end
 
-get '/read_more' do
-  erb :read_more
-end
+
 
 
   
